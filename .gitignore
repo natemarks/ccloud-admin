@@ -1,0 +1,12 @@
+build/
+release/
+upload/
+vendor/
+.idea/
+.vscode/
+*.test
+*.out
+*.iml
+.venv/
+*.tar.gz
+.secure.json

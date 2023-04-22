@@ -1,0 +1,97 @@
+{
+  "kind": "KafkaTopicList",
+  "metadata": {
+    "self": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics",
+    "next": null
+  },
+  "data": [
+    {
+      "kind": "KafkaTopic",
+      "metadata": {
+        "self": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.first",
+        "resource_name": "crn:///kafka=zz-cluster/topic=dev.topic.first"
+      },
+      "cluster_id": "zz-cluster",
+      "topic_name": "dev.topic.first",
+      "is_internal": false,
+      "replication_factor": 3,
+      "partitions_count": 1,
+      "partitions": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.first/partitions"
+      },
+      "configs": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.first/configs"
+      },
+      "partition_reassignments": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.first/partitions/-/reassignment"
+      },
+      "authorized_operations": []
+    },
+    {
+      "kind": "KafkaTopic",
+      "metadata": {
+        "self": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.second",
+        "resource_name": "crn:///kafka=zz-cluster/topic=dev.topic.second"
+      },
+      "cluster_id": "zz-cluster",
+      "topic_name": "dev.topic.second",
+      "is_internal": false,
+      "replication_factor": 3,
+      "partitions_count": 1,
+      "partitions": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.second/partitions"
+      },
+      "configs": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.second/configs"
+      },
+      "partition_reassignments": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.second/partitions/-/reassignment"
+      },
+      "authorized_operations": []
+    },
+    {
+      "kind": "KafkaTopic",
+      "metadata": {
+        "self": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.third",
+        "resource_name": "crn:///kafka=zz-cluster/topic=dev.topic.third"
+      },
+      "cluster_id": "zz-cluster",
+      "topic_name": "dev.topic.third",
+      "is_internal": false,
+      "replication_factor": 3,
+      "partitions_count": 1,
+      "partitions": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.third/partitions"
+      },
+      "configs": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.third/configs"
+      },
+      "partition_reassignments": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.third/partitions/-/reassignment"
+      },
+      "authorized_operations": []
+    },
+    {
+      "kind": "KafkaTopic",
+      "metadata": {
+        "self": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.fourth",
+        "resource_name": "crn:///kafka=zz-cluster/topic=dev.topic.fourth"
+      },
+      "cluster_id": "zz-cluster",
+      "topic_name": "dev.topic.fourth",
+      "is_internal": false,
+      "replication_factor": 3,
+      "partitions_count": 1,
+      "partitions": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.fourth/partitions"
+      },
+      "configs": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.fourth/configs"
+      },
+      "partition_reassignments": {
+        "related": "https://zz-endpoint.us-east-1.aws.confluent.cloud/kafka/v3/clusters/zz-cluster/topics/dev.topic.fourth/partitions/-/reassignment"
+      },
+      "authorized_operations": []
+    }
+  ]
+}
