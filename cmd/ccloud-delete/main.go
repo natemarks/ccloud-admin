@@ -30,12 +30,12 @@ func contains(s []string, str string) bool {
 
 // if the force flag is true, log the action
 // if not append the 'skipping' prefix
-func forcedLog(msg string, dti DeleteTopicsInput) string {
+func forcedLog(msg string, dti DeleteTopicsInput) {
 	if !dti.Force {
 		log.Printf("DRY RUN (SKIPPING): %s", msg)
+		return
 	}
-	return msg
-
+	log.Print(msg)
 }
 func supportedEnvironments() []string {
 	return []string{
@@ -184,7 +184,7 @@ func DeleteTopics(dti DeleteTopicsInput, topics []string) {
 		err := DeleteTopic(dti, v)
 		if err != nil {
 			time.Sleep(1 * time.Second)
-			DeleteTopic(dti, v)
+			_ = DeleteTopic(dti, v)
 		}
 	}
 }
