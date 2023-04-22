@@ -5,7 +5,6 @@
 DEFAULT_BRANCH := main
 THIS_FILE := $(lastword $(MAKEFILE_LIST))
 PKG := github.com/natemarks/ccloud-admin
-VERSION := 0.0.0
 COMMIT := $(shell git rev-parse HEAD)
 PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/)
 GO_FILES := $(shell find . -name '*.go' | grep -v /vendor/)
@@ -32,7 +31,7 @@ ${EXECUTABLES}:
 	@for o in $(GOOS); do \
 	  for a in $(GOARCH); do \
         env GOOS=$${o} GOARCH=$${a} \
-        go build  -v -o build/$${o}/$${a}/$@ ${PKG}/cmd/$@; \
+        go build  -v -o build/$(COMMIT)/$${o}/$${a}/$@ ${PKG}/cmd/$@; \
 	  done \
     done ; \
 
