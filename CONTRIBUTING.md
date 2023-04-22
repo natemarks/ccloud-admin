@@ -18,5 +18,4 @@ release/0.0.0/ccloud-admin_0.0.0_linux_amd64.tar.gz
 release/ccloud-admin__linux_amd64.tar.gz
 
 ```
-
-Then upload the new release to github.
+tag the commit with the manual version number, push the tag, upload the new release to github.
